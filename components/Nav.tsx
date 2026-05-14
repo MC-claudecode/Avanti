@@ -45,7 +45,7 @@ export default function Nav() {
       style={{
         position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
         height: 52,
-        background: scrolled ? "rgba(0,0,0,0.82)" : "rgba(0,0,0,0.55)",
+        background: scrolled ? "rgba(6,18,26,0.97)" : "rgba(6,18,26,0.88)",
         backdropFilter: "blur(20px)", WebkitBackdropFilter: "blur(20px)",
         display: "flex", alignItems: "center", padding: "0 32px",
         transition: "background 200ms ease",
