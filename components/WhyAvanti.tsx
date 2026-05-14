@@ -8,7 +8,7 @@ import { T } from "@/lib/data";
 const differentiators = [
   { stat: "100%", label: "Partner retention",    body: "Every brand we've ever signed has stayed with us for 2+ years. No churn. No exits." },
   { stat: "2 yrs", label: "Average tenure",      body: "We don't do trial campaigns or one-month sprints. We build long-term programs that compound." },
-  { stat: "3",     label: "Brands per quarter",  body: "We onboard a maximum of three new partners every quarter. Not fake scarcity — each program takes hundreds of hours." },
+  { stat: "3",     label: "Brands per quarter",  body: "We onboard a maximum of three new partners every quarter. Not fake scarcity, each program takes us hundreds of hours, and we won't dilute the work." },
   { stat: "0",     label: "Cookie-cutter templates", body: "Every flow, every campaign, every subject line is built for your brand. No reused decks. No copy-paste strategy." },
 ];
 

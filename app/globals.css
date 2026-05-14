@@ -68,3 +68,47 @@ a { text-decoration: none; }
   0%, 100% { background: #c2dbff; }
   50%       { background: #d8e7ff; }
 }
+
+@media (max-width: 900px) {
+  .nav-center-links { display: none !important; }
+  .responsive-stack {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+  .responsive-stack-tight {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .cs-hero-section { padding: 110px 24px 70px !important; }
+  .cs-hero-right { text-align: left !important; }
+  .cs-section { padding: 64px 22px !important; }
+  .form-grid-2 { grid-template-columns: 1fr !important; gap: 12px !important; }
+  .contact-form-card { padding: 28px 22px !important; }
+}
+
+@media (max-width: 720px) {
+  .email-mockup-wrap {
+    width: 760px !important;
+    transform: scale(calc((100vw - 32px) / 760));
+    transform-origin: top center;
+  }
+  .email-mockup-spacer {
+    height: calc(760px * ((100vw - 32px) / 760) * 0.78);
+  }
+  .hero-section { padding-top: 96px !important; }
+  .hero-headline { font-size: clamp(36px, 11vw, 56px) !important; }
+  .hero-subhead { font-size: 16px !important; }
+  .hero-pad { padding: 0 18px !important; }
+  .section-pad { padding-left: 22px !important; padding-right: 22px !important; }
+  .testimonial-card { padding: 22px 20px 20px !important; }
+  .pull-quote-card {
+    grid-template-columns: 1fr !important;
+    padding: 28px 22px !important;
+    gap: 18px !important;
+  }
+  .pull-quote-avatar { width: 52px !important; height: 52px !important; font-size: 22px !important; }
+}
+
+@media (max-width: 480px) {
+  .stats-grid { gap: 24px !important; }
+}

@@ -72,7 +72,7 @@ export default function Hero() {
 
         <h1 ref={headRef} style={{ fontSize: "clamp(42px, 6vw, 80px)", fontWeight: 700, color: "#fff", lineHeight: 1.05, letterSpacing: "-0.035em", marginBottom: 20 }}>
           We are Avanti.<br />
-          We are: <TypewriterCycle words={["your team", "email pros", "your new partner", "your edge", "klaviyo nerds"]} />
+          We are: <TypewriterCycle words={["your team", "email pros", "your edge", "klaviyo nerds"]} />
         </h1>
 
         <p ref={subRef} style={{ fontSize: "clamp(18px, 2vw, 21px)", color: "rgba(255,255,255,0.60)", lineHeight: 1.50, letterSpacing: "0.1px", maxWidth: 560, margin: "24px auto 36px" }}>
