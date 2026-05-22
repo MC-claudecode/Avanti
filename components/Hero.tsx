@@ -5,6 +5,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import TypewriterCycle from "./TypewriterCycle";
 import EmailMockup from "./EmailMockup";
+import MobileEmailMockup from "./MobileEmailMockup";
 import { T } from "@/lib/data";
 
 const pressProps = {
@@ -88,6 +89,7 @@ export default function Hero() {
       {/* Floating email mockup */}
       <div ref={mockupRef} style={{ width: "100%", display: "flex", justifyContent: "center", padding: "0 28px", position: "relative", zIndex: 10, marginBottom: -120 }}>
         <EmailMockup />
+        <MobileEmailMockup />
       </div>
     </section>
   );

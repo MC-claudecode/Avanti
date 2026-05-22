@@ -21,7 +21,7 @@ const sidebarItems = [
 
 export default function EmailMockup() {
   return (
-    <div style={{
+    <div className="email-mockup-desktop" style={{
       width: "100%", maxWidth: 1000,
       background: "#fff",
       borderRadius: "16px 16px 0 0",
