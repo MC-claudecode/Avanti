@@ -83,6 +83,7 @@ a { text-decoration: none; }
   }
   .cs-hero-section { padding: 110px 24px 70px !important; }
   .cs-hero-stat-block { display: block !important; width: 100% !important; }
+  .cs-hero-right { text-align: left !important; }
   .cs-section { padding: 64px 22px !important; }
   .cs-headline-card { padding: 22px 20px !important; }
   .cs-metrics-grid { grid-template-columns: 1fr 1fr !important; }

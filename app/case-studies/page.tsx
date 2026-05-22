@@ -194,7 +194,7 @@ export default function CaseStudiesPage() {
                   Four programs. Four industries. Real revenue you can underwrite.
                 </p>
               </div>
-              <div className="cs-hero-stat-block" style={{ textAlign: "right" }}>
+              <div className="cs-hero-right cs-hero-stat-block" style={{ textAlign: "right" }}>
                 <div style={{ display: "inline-block", borderTop: "1px solid rgba(255,255,255,0.12)", borderBottom: "1px solid rgba(255,255,255,0.12)", padding: "18px 0", textAlign: "left" }}>
                   <div style={{ fontSize: 11, fontWeight: 700, color: "rgba(255,255,255,0.45)", letterSpacing: "0.6px", textTransform: "uppercase", marginBottom: 12 }}>Across this page</div>
                   <div className="brand-gradient-text cs-hero-mega-num" style={{ fontSize: "clamp(64px, 8vw, 124px)", fontWeight: 700, letterSpacing: "-0.045em", lineHeight: 0.9 }}>+€2.7M</div>
