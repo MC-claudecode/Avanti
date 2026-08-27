@@ -20,8 +20,12 @@ export default function Footer() {
   return (
     <footer style={{ background: T.parchment, padding: "52px 28px 28px", borderTop: "1px solid rgba(15,20,25,0.08)" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-        <div style={{ marginBottom: 36 }}>
+        <div className="footer-top" style={{ marginBottom: 36, display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 28, flexWrap: "wrap" }}>
           <Image src="/assets/avanti-logo.png" alt="Avanti" width={120} height={56} style={{ height: 56, width: "auto", display: "block" }} />
+          <address className="footer-address" style={{ fontStyle: "normal", textAlign: "right", fontSize: 13, lineHeight: 1.65, color: T.ink56, letterSpacing: "-0.12px" }}>
+            <div style={{ fontWeight: 600, color: T.ink, marginBottom: 2 }}>Cursus LLC</div>
+            30 N Gould St, STE R<br/>Sheridan, WY 82801<br/>United States of America
+          </address>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: 32, marginBottom: 44 }}>
           {cols.map(col => (

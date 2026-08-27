@@ -139,6 +139,7 @@ a { text-decoration: none; }
 @media (max-width: 480px) {
   .nav-bar { padding: 0 18px !important; }
   .nav-logo { height: 30px !important; }
+  .footer-address { text-align: left !important; }
   .hero-headline { font-size: 38px !important; }
   .stats-grid { gap: 24px !important; }
 }
